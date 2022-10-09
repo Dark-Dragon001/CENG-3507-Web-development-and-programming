@@ -1,0 +1,146 @@
+.parentComp {
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .firstHr {
+    color: silver;
+    display: auto;
+  }
+  .secondHr {
+    display: block;
+    width: 85%;
+    border: solid silver 5px;
+  }
+  
+  .firstComp {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: baseline;
+    align-content: center;
+    align-self: stretch;
+    margin: auto;
+    padding: 3px;
+    gap: 2px;
+  }
+  
+  .firstCompSpan1,
+  .firstCompSpan2,
+  .firstCompSpan3 {
+    display: inline-block;
+    width: 320px;
+    max-width: 100%;
+    text-align: left;
+    align-content: center;
+    align-items: stretch;
+    align-self: stretch;
+    height: auto;
+    margin: auto;
+    gap: 2px;
+  }
+  
+  .firstCompSpan1 img {
+    height: 200px;
+    width: auto;
+    border: solid silver 1px;
+  }
+  
+  .secondComp {
+    display: inline-block;
+    margin: auto;
+    padding: 3px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    text-align: center;
+  }
+  
+  .thirdComp {
+    display: inline-block;
+    margin: auto;
+    padding: 3px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    text-align: left;
+    justify-content: top;
+    justify-items: top;
+  }
+  
+  .skillSpan1,
+  .skillSpan2 {
+    display: inline-block;
+    height: auto;
+    width: 35%;
+    justify-content: top;
+    justify-items: top;
+  }
+  
+  .educationComp {
+    display: inline-block;
+    margin: auto;
+    padding: 3px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    text-align: left;
+    justify-content: top;
+    justify-items: top;
+  }
+  
+  /* This style is used for the expeiecnce section as well.*/
+  .educationSpan1,
+  .educationSpan2,
+  .educationSpan3 {
+    display: inline-block;
+    height: auto;
+    width: 35%;
+    justify-content: top;
+    justify-items: top;
+  }
+  
+  .expComp {
+    display: inline-block;
+    margin: auto;
+    padding: 3px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid silver;
+    border-bottom: 2px solid silver;
+    text-align: left;
+    justify-content: top;
+    justify-items: top;
+  }
+  
+  .refComp {
+    display: block;
+    border: dashed silver 2px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .refComp * {
+    padding: 2px;
+    margin: 5px;
+  }
+  
+  .lastComp {
+    text-align: center;
+    margin: 10px;
+  }
+  
