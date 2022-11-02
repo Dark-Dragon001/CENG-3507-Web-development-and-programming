@@ -101,13 +101,14 @@ section
 
 .midSection span:not(:first-of-type)
 {
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 2% 10px;
     gap: 5%;
     justify-items: flex-start;
     align-items: flex-start;
+    text-align: left;
 }
 
 
