@@ -1,0 +1,301 @@
+*
+{
+    margin: 0;
+}
+
+
+hr
+{
+    border: 2vh solid skyblue;
+}
+
+
+/* Header style. */
+header
+{
+    position: sticky;
+    top: 0;
+    display: inline-flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 100%;
+    height: 12vh;
+    background-color: white;
+    opacity: 80%;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+
+header img
+{
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
+    height: 87px;
+    object-fit: fill;
+    transform: scale(1.2);
+}
+
+
+header span
+{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    height: 90px;
+    max-width: 35%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(238, 231, 231);
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+
+header span:last-of-type
+{
+    /* Inverted box shadow of headers last element. */
+    box-shadow: -10px 10px 5px lightblue;
+}
+
+
+/* Middle part style. */
+section
+{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.midSection
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #c8d8e4;
+    box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7), -5px 0 5px -5px rgba(0,0,0,0.7);
+    width: 70vw;
+}
+
+
+.midSection span:first-of-type
+{
+    width: 90%;
+    gap: 10px;
+    margin: 25px 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.midSection span:not(:first-of-type)
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2% 10px;
+    gap: 5%;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+
+.midSection hr
+{
+    width: 90%;
+    border: black solid;
+    margin-bottom: 30px;
+    
+}
+
+
+.midSection img
+{
+   height: 80px;
+   position: relative;
+   left: 10%;
+   top: 10%; 
+}
+
+
+/* Common Style for Left sidebar, and Right Sidebar. */
+.leftSideBar,
+.rightSideBar
+{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    gap: 5px;
+    margin: auto;
+}
+
+
+.leftSideBar div,
+.rightSideBar div
+{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: rgb(238, 231, 231);
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+
+/* Left sidebar style. */
+.leftSideBar img
+{
+    padding: 5px;
+    height: 40px;
+    width: auto;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+
+/* Right sidebar style. */
+.rightSideBar div
+{
+    /* Inverted box shadow of Right sidebar. */
+    box-shadow: -10px 10px 5px lightblue;
+}
+
+
+.rightSideBar div span
+{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+
+
+.rightSideBar img
+{
+    padding: 5px;
+    height: 70px;
+    margin: auto;
+    width: auto;
+    object-fit: fill;
+    border-radius: 50%;
+    flex-shrink: 1;
+}
+
+
+.rightSideBar div:last-child,
+.rightSideBar div:first-child
+{
+    gap: 5px;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+.rightSideBar div:first-child
+{
+    text-align: left;
+}
+
+
+.rightSideBar div:last-child span
+{
+    /* Background color for activity box.*/
+    background-color: white;
+    width: 80%;
+}
+
+
+.rightSideBar h3
+{
+    padding-top: 15px;
+}
+
+
+/* Footer style. */
+footer
+{
+    display: flexbox;
+    align-content: center;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: black;
+    color: white;
+    width: 100%;   
+    max-width: 100%; 
+}
+
+
+.footerDivOne
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footerDivOne span
+{
+    display: flexbox;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+
+.footerDivTwo
+{
+    display: flexbox;
+    flex: auto;
+    text-align: center;
+}
+
+
+footer a
+{
+    color: rgb(38, 145, 207);
+}
+
+
+footer a:hover
+{
+    color: white;
+}
